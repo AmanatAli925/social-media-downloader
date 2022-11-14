@@ -1,0 +1,68 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+div.navbar{
+	background-color: #3a5887;
+}
+div.navbar a{
+	text-decoration: none;
+	color: white;
+}
+
+div.navbar a{
+	padding: 1rem .5rem;
+	display: inline-block;
+	cursor: pointer;
+	
+}
+
+
+div.error-message{
+	color: red;
+	text-align: center;
+}
+
+form.downloader-form{
+	width:100%;
+
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+}
+
+form.downloader-form input{
+	width: 25rem;
+	margin-right: .5rem;
+	padding: .3rem;
+}
+
+div.downloadLinks {
+	text-align:center;
+}
+
+
+div.downloadLinks a {
+	margin: .5rem;
+	padding: .5rem 1.5rem;
+	background-color: #3a5887;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+
+form.audio-select-form{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	margin: 1rem auto;
+}
+
+form.audio-select-form select{
+	margin-right: .5rem;
+	padding: .5rem;
+}

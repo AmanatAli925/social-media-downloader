@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+	{% if audioSelect %}
+		<form action="" class="audio-select-form">
+			<select name="audio">
+				<option value="" selected disabled>Select Audio Quality</option>
+				<option value="low">Low</option>
+				<option value="medium">Medium</option>
+				<option value="high">High</option>
+				
+			</select>
+			<button type="submit">Process</button>
+		</form> 
+	{% else %}
+		<div id='progress-container' style="width: 70%; margin:auto;">
+			<div style="width:100%; min-height: .5rem; background-color:black;" id="progressbar-container">
+			</div>
+		</div>
+		<div class="downloadLinks" hidden="" id="downloadLinks">
+			<a href="/videos/{{filename}}">Download Video</a>
+		</div>
+		
+
+		<script src="{% static '/js/progress.js' %}" type="text/javascript"></script>
+	{% endif %}
+	
+{% endblock %}

@@ -1,0 +1,4 @@
+  File "manage.py", line 17
+    ) from exc
+         ^
+SyntaxError: invalid syntax

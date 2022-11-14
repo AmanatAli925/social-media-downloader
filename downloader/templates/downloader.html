@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1 style="text-align:center;">Download {{sites}} videos.</h1>
+	<div class="error-message">{{error_message}}</div>
+		<form action="" class="downloader-form">
+			<input placeholder="Enter {{sites}} video page link here..." value="{{uri}}" type="text" name="uri"></input>
+			<button type="submit">Download</button>
+		</form>
+	<div class='downloadLinks'>
+		{% for downloadLink in downloadLinks %}
+			<a href="{{downloadLink.link}}">{{downloadLink.text}}</a><br>
+		{% endfor %}
+	</div>
+{% endblock content %}

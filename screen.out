@@ -1,0 +1,60 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 02, 2022 - 21:26:51
+Django version 3.2.15, using settings 'video_downloader.settings'
+Starting development server at http://127.0.0.1:8888/
+Quit the server with CONTROL-C.
+[youtube:tab] Downloading just video HQDWzq3agqE because of --no-playlist
+[youtube] HQDWzq3agqE: Downloading webpage
+[youtube] HQDWzq3agqE: Downloading android player API JSON
+[youtube:tab] Downloading just video HQDWzq3agqE because of --no-playlist
+[youtube] HQDWzq3agqE: Downloading webpage
+[youtube] HQDWzq3agqE: Downloading android player API JSON
+[info] HQDWzq3agqE: Downloading 1 format(s): 140+397
+[download] Destination: /mnt/disk1/video_downloader/videos/yOie2OXnxl1Ss3YwTjGd-397.f140.m4a
+[download] Download completed
+[download] Destination: /mnt/disk1/video_downloader/videos/yOie2OXnxl1Ss3YwTjGd-397.f397.mp4
+[download] Download completed
+[Merger] Merging formats into "/mnt/disk1/video_downloader/videos/yOie2OXnxl1Ss3YwTjGd-397.mp4"
+Deleting original file /mnt/disk1/video_downloader/videos/yOie2OXnxl1Ss3YwTjGd-397.f140.m4a (pass -k to keep)
+Deleting original file /mnt/disk1/video_downloader/videos/yOie2OXnxl1Ss3YwTjGd-397.f397.mp4 (pass -k to keep)
+[youtube:tab] Downloading just video XHA-QM-q-3E because of --no-playlist
+[youtube] XHA-QM-q-3E: Downloading webpage
+[youtube] XHA-QM-q-3E: Downloading android player API JSON
+[youtube] XHA-QM-q-3E: Downloading player 64947e15
+[youtube] XHA-QM-q-3E: Downloading initial data API JSON
+[info] XHA-QM-q-3E: Downloading 1 format(s): 139+397
+[download] Destination: /mnt/disk1/video_downloader/videos/7eDVjsGiWAKRNrQ9D6gm-397.f139.m4a
+[download] Download completed
+[download] Destination: /mnt/disk1/video_downloader/videos/7eDVjsGiWAKRNrQ9D6gm-397.f397.mp4
+[download] Download completed
+[Merger] Merging formats into "/mnt/disk1/video_downloader/videos/7eDVjsGiWAKRNrQ9D6gm-397.mp4"
+Deleting original file /mnt/disk1/video_downloader/videos/7eDVjsGiWAKRNrQ9D6gm-397.f139.m4a (pass -k to keep)
+Deleting original file /mnt/disk1/video_downloader/videos/7eDVjsGiWAKRNrQ9D6gm-397.f397.mp4 (pass -k to keep)
+{}
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 22, 2022 - 10:16:23
+Django version 3.2.15, using settings 'video_downloader.settings'
+Starting development server at http://127.0.0.1:8888/
+Quit the server with CONTROL-C.
+{}
+Performing system checks...
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 22, 2022 - 10:20:27
+Django version 3.2.15, using settings 'video_downloader.settings'
+Starting development server at http://127.0.0.1:8888/
+Quit the server with CONTROL-C.
+[youtube:tab] Downloading just video XHA-QM-q-3E because of --no-playlist
+[youtube] XHA-QM-q-3E: Downloading webpage
+[youtube] XHA-QM-q-3E: Downloading android player API JSON
+EXCEPTION OCCURED  'str' object has no attribute 'contains'
+[youtube:tab] Downloading just video XHA-QM-q-3E because of --no-playlist
+[youtube] XHA-QM-q-3E: Downloading webpage
+[youtube] XHA-QM-q-3E: Downloading android player API JSON
+EXCEPTION OCCURED  'str' object has no attribute 'contains'
